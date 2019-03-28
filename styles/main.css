@@ -30,7 +30,7 @@ html {
 .hero {
     display: grid;
     flex: 0 0 100%;
-    grid-template-columns: 15% 35% 35% 15%;
+    grid-template-columns: 15% 17.5% 17.5% 17.5% 17.5% 15%;
     grid-template-rows: 14.5vw 35.5vw 35.5vw 14.5vw 14.5vw 14.5vw 14.5vw 35.5vw;
 }
 
@@ -52,25 +52,26 @@ html {
 
 #plate {
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 4;
 }
 
 #center-plate {
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 6;
     grid-row-start: 2;
 }
 
-#plate, #center-plate {
+#plate, #center-plate, #umia-title, #CuisineVoyages, #address, #telephone {
     fill: var(--font);
 }
 
 #umia-title {
     width: 100%;
     padding-bottom: 42%;
-    grid-column-start: 3;
+    grid-column-start: 4;
+    grid-column-end: 6;
     grid-row-start: 2;
     align-self: end;
     fill: var(--font);
@@ -81,8 +82,21 @@ html {
     fill: var(--font);
     padding-bottom: 20%;
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 6;
     grid-row-start: 6;
+}
+
+#telephone {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    padding-bottom: 20%;
+}
+
+#address {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start: 8;
 }
 
 main {
