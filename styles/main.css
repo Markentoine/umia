@@ -122,6 +122,8 @@ main {
 
 #map {
     width: 100%;
+    border: 2px solid #b3001b;
+    border-radius: 50%;
 }
 
 a { 
