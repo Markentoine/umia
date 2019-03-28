@@ -1,0 +1,129 @@
+:root {
+    --font: #24BEDB;
+    --circles: #2c3e50;
+    /*24BEDB font and */
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Raleway', arial, helvetica, sans-serif;
+    font-size: 24px;
+    color: var(--font);
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background: linear-gradient(#ffd194, #70e1f5);
+}
+
+.hero {
+    display: grid;
+    flex: 0 0 100%;
+    grid-template-columns: 15% 35% 35% 15%;
+    grid-template-rows: 14.5vw 35.5vw 35.5vw 14.5vw;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.svg-content {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#plate {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+#center-plate {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+}
+
+#plate, #center-plate {
+    fill: var(--font);
+}
+
+#umia-title {
+    width: 100%;
+    padding-bottom: 42%;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    align-self: end;
+    fill: var(--font);
+    margin-left: -11%;
+}
+
+main {
+    width: 100vw;
+}
+
+.map {
+    width: 60vw;
+    margin: 3rem;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+#map {
+    width: 100%;
+    border-radius: 50%;
+}
+
+a { 
+    color: var(--font);
+    text-decoration: none;
+}
+
+.hours,
+.philosophy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hours {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.philosophy {
+    grid-column-start: 2;
+    grid-row-start: 5;
+}
+
+h1 {
+    margin: 2.5rem;
+}
+
+p {
+    margin: .3rem;
+}
+
+#schedule {
+    width: 10vw;
+}
+
