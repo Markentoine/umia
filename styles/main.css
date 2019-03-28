@@ -1,6 +1,9 @@
 :root {
     --font: #24BEDB;
+    --fontDarker: #2a628f;
     --circles: #2c3e50;
+    --gradientFrom: #ffd194;
+    --gradientTo: #70e1f5;
     /*24BEDB font and */
 }
 
@@ -24,7 +27,7 @@ html {
     display: flex;
     width: 100%;
     flex-direction: column;
-    background: linear-gradient(#ffd194, #70e1f5);
+    background: linear-gradient(var(--gradientFrom), var(--gradientTo));
 }
 
 .hero {
@@ -97,6 +100,10 @@ html {
         grid-column-start: 2;
         grid-column-end: 6;
         grid-row-start: 8;
+}
+
+a svg:hover {
+    fill: var(--fontDarker);
 }
 
 main {
