@@ -1,9 +1,10 @@
 :root {
-    --font: #24BEDB;
+    --font: #b3001b;
     --fontDarker: #2a628f;
     --circles: #2c3e50;
-    --gradientFrom: #ffd194;
-    --gradientTo: #70e1f5;
+    --gradientFrom: #FF4E50;
+    --gradientTo: #F9D423;
+    /*ffbc42  24BEDB;*/
 }
 
 html {
@@ -76,7 +77,7 @@ html {
     grid-column-end: 6;
     grid-row-start: 2;
     align-self: end;
-    fill: var(--font);
+    fill: #2a628f;
     margin-left: -15%;
 }
 
@@ -96,9 +97,9 @@ html {
 }
 
 #address {
-        grid-column-start: 2;
-        grid-column-end: 6;
-        grid-row-start: 8;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 8;
 }
 
 a svg:hover {
