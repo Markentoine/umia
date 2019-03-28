@@ -72,12 +72,12 @@ html {
 #umia-title {
     width: 100%;
     padding-bottom: 42%;
-    grid-column-start: 4;
+    grid-column-start: 3;
     grid-column-end: 6;
     grid-row-start: 2;
     align-self: end;
     fill: var(--font);
-    margin-left: -11%;
+    margin-left: -15%;
 }
 
 #CuisineVoyages {
