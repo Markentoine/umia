@@ -31,7 +31,7 @@ html {
     display: grid;
     flex: 0 0 100%;
     grid-template-columns: 15% 35% 35% 15%;
-    grid-template-rows: 14.5vw 35.5vw 35.5vw 14.5vw;
+    grid-template-rows: 14.5vw 35.5vw 35.5vw 14.5vw 14.5vw 14.5vw 14.5vw 35.5vw;
 }
 
 .svg-container {
@@ -75,6 +75,14 @@ html {
     align-self: end;
     fill: var(--font);
     margin-left: -11%;
+}
+
+#CuisineVoyages {
+    fill: var(--font);
+    padding-bottom: 20%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 6;
 }
 
 main {
