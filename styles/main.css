@@ -1,9 +1,9 @@
 :root {
-    --font: #b3001b;
-    --fontDarker: #2a628f;
+    --font: #191308
+    --fontDarker: #black;
     --circles: #2c3e50;
-    --gradientFrom: #FF4E50;
-    --gradientTo: #F9D423;
+    --gradientFrom: #fff;
+    --gradientTo: #fff;
     /*ffbc42  24BEDB;*/
 }
 
@@ -91,7 +91,7 @@ html {
     grid-column-end: 6;
     grid-row-start: 2;
     align-self: end;
-    fill: #2a628f;
+    fill:var(--font);
     margin-left: -15%;
     margin-bottom: -20%;
 }
