@@ -1,9 +1,9 @@
 :root {
-    --font: #191308
+    --font: #FF6D71;
     --fontDarker: #black;
     --circles: #2c3e50;
-    --gradientFrom: #fff;
-    --gradientTo: #fff;
+    --gradientFrom: #FFC89C;
+    --gradientTo: #FFAE6D;
     /*ffbc42  24BEDB;*/
 }
 
@@ -91,7 +91,7 @@ html {
     grid-column-end: 6;
     grid-row-start: 2;
     align-self: end;
-    fill:var(--font);
+    fill: #FF4247;
     margin-left: -15%;
     margin-bottom: -20%;
 }
@@ -124,11 +124,6 @@ html {
     grid-row-start: 8;
 }
 
-a svg:hover {
-    fill: var(--fontDarker);
-    transform: scale(.95);
-}
-
 main {
 
     display: grid;
@@ -144,11 +139,6 @@ main {
     width: 100%;
     align-self: end;
     padding-bottom: 120%;
-}
-
-#location:hover {
-    transform: rotate(1turn);
-    transition: .3s ease-in-out;
 }
 
 #map-frame {
