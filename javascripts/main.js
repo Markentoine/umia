@@ -5,6 +5,6 @@
         setTimeout(() => {
             plate.classList.add('rotate');
             centerPlate.classList.add('antirotate');
-        }, 1000);
+        }, 300);
     });
 }());

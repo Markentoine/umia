@@ -68,13 +68,13 @@ html {
 
 .rotate {
     fill: var(--font);
-    transform: rotate(1turn);
+    transform: rotate(5turn);
     transition: 1s;
 }
 
 .antirotate {
     fill: var(--font);
-    transform: rotate(-1turn);
+    transform: rotate(-5turn);
     transition: 1s;
 }
 
