@@ -54,29 +54,34 @@ html {
 }
 
 #plate {
+    fill: #FF4E50;
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 4;
 }
 
-.rotate {
-    transform: rotate(1turn);
-    transition: 1s;
-}
-
-.antirotate {
-    transform: rotate(-1turn);
-    transition: 1s;
-}
-
 #center-plate {
+    fill: #FF4E50;
     grid-column-start: 2;
     grid-column-end: 6;
     grid-row-start: 2;
 }
 
-#plate, #center-plate, #umia-title, #CuisineVoyages, #address, #telephone, #phone-call-out, #location-pin,
+.rotate {
+    fill: var(--font);
+    transform: rotate(1turn);
+    transition: 1s;
+}
+
+.antirotate {
+    fill: var(--font);
+    transform: rotate(-1turn);
+    transition: 1s;
+}
+
+
+#umia-title, #CuisineVoyages, #address, #telephone, #phone-call-out, #location-pin,
 #map-frame {
     fill: var(--font);
 }
