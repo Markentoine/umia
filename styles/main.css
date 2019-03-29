@@ -60,6 +60,16 @@ html {
     grid-row-end: 4;
 }
 
+#svg-plate:hover {
+    transform: rotate(1turn);
+    transition: 1s;
+}
+
+#svg-center-plate:hover {
+    transform: rotate(-1turn);
+    transition: 1s;
+}
+
 #center-plate {
     grid-column-start: 2;
     grid-column-end: 6;
@@ -133,7 +143,7 @@ main {
 
 #location:hover {
     transform: rotate(1turn);
-    transition: 1s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 #map-frame {
