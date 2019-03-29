@@ -133,7 +133,7 @@ main {
     display: grid;
     flex: 0 0 100%;
     grid-template-columns: 14% repeat(10, 7.2%) 14%;
-    grid-template-rows: 30vw 36vw 36vw 150vw;
+    grid-template-rows: 18vw 36vw 36vw 150vw;
 }
 
 #location-pin {
