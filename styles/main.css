@@ -131,6 +131,11 @@ main {
     padding-bottom: 120%;
 }
 
+#location:hover {
+    transform: rotate(1turn);
+    transition: 1s ease-in-out;
+}
+
 #map-frame {
     grid-column-start: 2;
     grid-column-end: 12;
