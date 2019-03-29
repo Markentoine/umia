@@ -126,6 +126,7 @@ html {
 
 a svg:hover {
     fill: var(--fontDarker);
+    transform: scale(.95);
 }
 
 main {
