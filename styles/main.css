@@ -54,7 +54,6 @@ html {
 }
 
 #plate {
-    fill: #FF4E50;
     grid-column-start: 1;
     grid-column-end: 7;
     grid-row-start: 1;
@@ -62,7 +61,6 @@ html {
 }
 
 #center-plate {
-    fill: #FF4E50;
     grid-column-start: 2;
     grid-column-end: 6;
     grid-row-start: 2;
@@ -81,7 +79,7 @@ html {
 }
 
 
-#umia-title, #CuisineVoyages, #address, #telephone, #phone-call-out, #location-pin,
+#plate, #center-plate, #umia-title, #CuisineVoyages, #address, #telephone, #phone-call-out, #location-pin,
 #map-frame {
     fill: var(--font);
 }
