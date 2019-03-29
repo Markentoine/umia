@@ -60,15 +60,12 @@ html {
     grid-row-end: 4;
 }
 
-#svg-plate:hover,
-#svg-plate:active
- {
+.rotate {
     transform: rotate(1turn);
     transition: 1s;
 }
 
-#svg-center-plate:hover,
-#svg-center-plate:active {
+.antirotate {
     transform: rotate(-1turn);
     transition: 1s;
 }
