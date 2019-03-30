@@ -1,8 +1,8 @@
 :root {
     --font: #FF6D71;
-    --fontDarker: #black;
+    --fontDarker: #FF4247;
     --circles: #2c3e50;
-    --gradientFrom: #FFC89C;
+    --gradientFrom: #FFEBDA;
     --gradientTo: #FFAE6D;
     /*ffbc42  24BEDB;*/
 }
@@ -78,9 +78,11 @@ html {
     transition: 1s;
 }
 
+.hide {
+    display: none;
+}
 
-#plate, #center-plate, #umia-title, #CuisineVoyages, #address, #telephone, #phone-call-out, #location-pin,
-#map-frame {
+#plate, #center-plate, #umia-title, #CuisineVoyages, #address, #telephone, #phone-call-out, #map-frame {
     fill: var(--font);
 }
 
@@ -91,7 +93,7 @@ html {
     grid-column-end: 6;
     grid-row-start: 2;
     align-self: end;
-    fill: #FF4247;
+    fill: var(--fontDarker);
     margin-left: -15%;
     margin-bottom: -20%;
 }
@@ -139,6 +141,7 @@ main {
     width: 100%;
     align-self: end;
     padding-bottom: 120%;
+    fill: var(--fontDarker);
 }
 
 #map-frame {
