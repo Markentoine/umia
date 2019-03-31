@@ -30,6 +30,15 @@ html {
     background: linear-gradient(var(--gradientFrom), var(--gradientTo));
 }
 
+#header {
+    position: fixed;
+    justify-content: space-between;
+    background-color: var(--gradientFrom);
+    width: 100vw;
+    height: 10vw;
+    z-index: 5;
+}
+
 .hero {
     display: grid;
     flex: 0 0 100%;

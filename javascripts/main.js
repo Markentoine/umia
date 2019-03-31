@@ -1,5 +1,6 @@
 (function () {
     document.addEventListener('DOMContentLoaded', function () {
+        const header = document.getElementById('header');
         const plate = document.getElementById('svg-plate');
         const centerPlate = document.getElementById('svg-center-plate');
         const UmiaTitle = document.getElementById('umia-title');
@@ -22,6 +23,7 @@
                 }, 500);
             }, 1000);
         }, 300);
+        document.addEventListener('scroll', events.headerOnScroll.bind(header));
     });
 }());
 
@@ -42,3 +44,21 @@ const effects = {
         }, 1);
     },
 };
+
+const events = {
+    headerOnScroll: function () {
+        if (window.scrollY >= 600) {
+            this.classList.remove('hide');
+            this.style.display = 'flex';
+            this.addEventListener('click', e => {
+                e.stopImmediatePropagation();
+                if (e.target.textContent === 'UMIA') {
+                    console.log('click');
+                }
+            })
+        } else {
+            this.style.display = '';
+            this.classList.add('hide');
+        }
+    },
+}
