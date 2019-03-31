@@ -51,9 +51,13 @@ const events = {
             this.classList.remove('hide');
             this.style.display = 'flex';
             this.addEventListener('click', e => {
+                const target = e.target;
                 e.stopImmediatePropagation();
-                if (e.target.textContent === 'UMIA') {
+                if (target.id === 'umia') {
                     console.log('click');
+                    window.scroll(0, 0);
+                } else if (target.id === 'menu') {
+                    console.log('clock');
                 }
             })
         } else {
