@@ -169,9 +169,11 @@ main {
 
 .map {
     grid-column-start: 3;
-    grid-column-end: 11;
+    grid-column-end: 13;
     grid-row-start: 2;
-    margin-top: 11%;
+    margin-top: 8%;
+    margin-left: -0.5%;
+    width: 105%;
 }
 
 #map {
