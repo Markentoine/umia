@@ -123,13 +123,16 @@ html {
 #phone-call-out {
     grid-column-start: 2;
     grid-row-start: 7;
-    width: 30%;
-    justify-self: end;
+    width: 40%;
+    margin-left: 32%;
+    
 }
 
 #telephone {
-    grid-column-start: 3;
-    grid-column-end: 5;
+    width: 70%;
+    margin-left: 20%;
+    grid-column-start: 2;
+    grid-column-end: 6;
     grid-row-start: 7;
     padding-bottom: 20%;
 }
@@ -138,6 +141,7 @@ html {
     grid-column-start: 2;
     grid-column-end: 6;
     grid-row-start: 8;
+    margin-left: 3%;
 }
 
 main {
