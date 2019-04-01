@@ -53,12 +53,9 @@ const events = {
             this.addEventListener('click', e => {
                 const target = e.target;
                 e.stopImmediatePropagation();
-                if (target.id === 'umia') {
-                    console.log('click');
+                if (target.tagName === 'svg' || target.tagName === 'path') {
                     window.scroll(0, 0);
-                } else if (target.id === 'menu') {
-                    console.log('clock');
-                }
+                } else if (target.id === 'menu') {}
             })
         } else {
             this.style.display = '';
