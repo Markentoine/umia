@@ -32,6 +32,7 @@ html {
 
 #header {
     position: fixed;
+    display: flex;
     justify-content: space-between;
     background-color: var(--gradientFrom);
     width: 100vw;
@@ -42,6 +43,15 @@ html {
 #umia {
     width: 20%;
     fill: var(--fontDarker);
+    margin-top: 2.5%;
+    margin-left: 2%;
+}
+
+#menu {
+    width: 8%;
+    fill: var(--fontDarker);
+    margin-top: 1%;
+    margin-right: 2%;
 }
 
 .hero {
@@ -93,7 +103,7 @@ html {
 }
 
 .hide {
-    display: none;
+    visibility: hidden;
 }
 
 #plate, #center-plate, #umia-title, #CuisineVoyages, #address, #telephone, #phone-call-out, #map-frame {
@@ -148,7 +158,7 @@ main {
     display: grid;
     flex: 0 0 100%;
     grid-template-columns: 14% repeat(10, 7.2%) 14%;
-    grid-template-rows: 18vw 36vw 36vw 150vw;
+    grid-template-rows: 18vw 36vw 36vw 18vw 15vw 36vw 36vw 150vw;
 }
 
 #location-pin {
@@ -178,6 +188,32 @@ main {
 
 #map {
     width: 100%;
+}
+
+#clock {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 5;
+    width: 100%;
+    fill: var(--fontDarker);
+}
+
+#clock svg > path {
+    fill: var(--gradientFrom);
+}
+
+#hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 6;
+}
+
+#hours p {
+    text-align: center;
 }
 
 a { 
