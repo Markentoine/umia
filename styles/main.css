@@ -158,7 +158,7 @@ main {
     display: grid;
     flex: 0 0 100%;
     grid-template-columns: 14% repeat(10, 7.2%) 14%;
-    grid-template-rows: 18vw 36vw 36vw 18vw 15vw 36vw 36vw 150vw;
+    grid-template-rows: 18vw 36vw 36vw 18vw 15vw 15vw 36vw 36vw 150vw;
 }
 
 #location-pin {
@@ -209,7 +209,7 @@ main {
     align-items: center;
     grid-column-start: 2;
     grid-column-end: 12;
-    grid-row-start: 6;
+    grid-row-start: 7;
 }
 
 #hours p {
@@ -219,23 +219,6 @@ main {
 a { 
     color: var(--font);
     text-decoration: none;
-}
-
-.hours,
-.philosophy {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.hours {
-    grid-column-start: 1;
-    grid-row-start: 3;
-}
-
-.philosophy {
-    grid-column-start: 2;
-    grid-row-start: 5;
 }
 
 h1 {
