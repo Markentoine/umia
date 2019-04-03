@@ -235,7 +235,7 @@ main {
     fill: var(--fontDarker);
 }
 
-.gallery {
+#gallery {
     grid-column-start: 3;
     grid-column-end: 12;
     grid-row-start: 10;
@@ -244,7 +244,7 @@ main {
     margin-left: -5.5%;
 }
 
-.gallery img {
+#gallery img {
     width: 100%;
 }
 

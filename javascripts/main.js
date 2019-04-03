@@ -8,6 +8,7 @@
         const iconPhoneCall = document.getElementById('phone-call-out');
         const telephone = document.getElementById('telephone');
         const address = document.getElementById('address');
+        const imageGallery = document.getElementById('image-gallery');
         setTimeout(() => {
             plate.classList.add('rotate');
             centerPlate.classList.add('antirotate');
@@ -23,6 +24,16 @@
                 }, 500);
             }, 1000);
         }, 300);
+        let inc = 0
+        setInterval(() => {
+            const photos = ['salle.png', 'homard_compressed_rounded.png'];
+            const len = photos.length;
+            inc += 1;
+            if (inc === len) inc = 0;
+            imageGallery.setAttribute('src', `./assets/photos/${photos[inc]}`);
+        }, 3000);
+
+
         document.addEventListener('scroll', events.headerOnScroll.bind(header));
     });
 }());
