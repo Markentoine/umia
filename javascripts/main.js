@@ -26,13 +26,12 @@
         }, 300);
         let inc = 0
         setInterval(() => {
-            const photos = ['salle.png', 'homard_compressed_rounded.png'];
+            const photos = ['salle.png', 'homard_compressed_rounded.png', 'equipe.png', 'auVert.png', 'figue.png'];
             const len = photos.length;
             inc += 1;
             if (inc === len) inc = 0;
             imageGallery.setAttribute('src', `./assets/photos/${photos[inc]}`);
         }, 3000);
-
 
         document.addEventListener('scroll', events.headerOnScroll.bind(header));
     });
