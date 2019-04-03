@@ -158,7 +158,7 @@ main {
     display: grid;
     flex: 0 0 100%;
     grid-template-columns: 14% repeat(10, 7.2%) 14%;
-    grid-template-rows: 18vw 36vw 36vw 18vw 15vw 15vw 36vw 36vw 150vw;
+    grid-template-rows: 18vw 36vw 36vw 18vw 15vw 15vw 36vw 18vw 36vw 150vw;
 }
 
 #location-pin {
@@ -214,6 +214,18 @@ main {
 
 #hours p {
     text-align: center;
+}
+
+#photo-gallery {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 9;
+    width: 100%;
+    fill: var(--fontDarker);
+}
+
+#fond {
+    fill: var(--gradientFrom);
 }
 
 a { 
