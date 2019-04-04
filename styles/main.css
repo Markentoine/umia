@@ -253,6 +253,7 @@ main {
     grid-column-end: 8;
     grid-row-start: 12;
     fill: var(--fontDarker);
+    width: 105%;
 }
 
 #philosophy {
@@ -270,6 +271,7 @@ main {
     grid-column-start: 6;
     grid-column-end: 8;
     grid-row-start: 16;
+    width: 105%;
     fill: var(--fontDarker);
 }
 
