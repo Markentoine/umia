@@ -158,7 +158,7 @@ main {
     display: grid;
     flex: 0 0 100%;
     grid-template-columns: 14% repeat(10, 7.2%) 14%;
-    grid-template-rows: 18vw 36vw 36vw 18vw 15vw 15vw 36vw 18vw 15vw 72vw 18vw 15vw 18vw 36vw 150vw;
+    grid-template-rows: 18vw 36vw 36vw 18vw 15vw 15vw 36vw 18vw 15vw 72vw 18vw 15vw 18vw 36vw 18vw 15vw 18vw 150vw;
 }
 
 #location-pin {
@@ -264,6 +264,13 @@ main {
     grid-column-end: 10;
     grid-row-start: 14;
     margin-left: -20%;
+}
+
+#connected-icon {
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 16;
+    fill: var(--fontDarker);
 }
 
 a { 
