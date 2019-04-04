@@ -26,7 +26,7 @@
         }, 300);
         let inc = 0
         setInterval(() => {
-            const photos = ['salle.png', 'homard_compressed_rounded.png', 'equipe.png', 'auVert.png', 'figue.png'];
+            const photos = ['salle.png', 'homard_compressed_rounded.png', 'equipe.png', 'auVert.png', 'figue.png', 'chat.png', 'carotte.png', 'citron.png', 'violette.png', 'aubergine.png', 'radis.png', 'raquettes.png', 'poulet.png', 'framboise.png', 'oranges.png' ]
             const len = photos.length;
             inc += 1;
             if (inc === len) inc = 0;
