@@ -259,6 +259,7 @@ h1 {
 
 p {
     margin: .3rem;
+    color: var(--fontDarker);
 }
 
 #schedule {
