@@ -21,6 +21,9 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
+}
+
+svg {
     fill: var(--fontDarker);
 }
 
@@ -43,14 +46,12 @@ html {
 
 #umia {
     width: 20%;
-    fill: var(--fontDarker);
     margin-top: 2.5%;
     margin-left: 2%;
 }
 
 #menu {
     width: 8%;
-    fill: var(--fontDarker);
     margin-top: 1%;
     margin-right: 2%;
 }
@@ -118,7 +119,6 @@ html {
     grid-column-end: 6;
     grid-row-start: 2;
     align-self: end;
-    fill: var(--fontDarker);
     margin-left: -15%;
     margin-bottom: -30%;
 }
@@ -169,7 +169,6 @@ main {
     width: 100%;
     align-self: end;
     padding-bottom: 120%;
-    fill: var(--fontDarker);
 }
 
 #map-frame {
@@ -177,7 +176,6 @@ main {
     grid-column-end: 12;
     grid-row-start: 2;
     grid-row-end: 4;
-    fill: var(--fontDarker);
 }
 
 .map {
@@ -198,7 +196,6 @@ main {
     grid-column-end: 8;
     grid-row-start: 5;
     width: 100%;
-    fill: var(--fontDarker);
 }
 
 #clock svg > path {
@@ -224,7 +221,6 @@ main {
     grid-column-end: 8;
     grid-row-start: 9;
     width: 100%;
-    fill: var(--fontDarker);
 }
 
 #fond {
@@ -235,7 +231,6 @@ main {
     grid-column-start: 2;
     grid-column-end: 12;
     grid-row-start: 10;
-    fill: var(--fontDarker);
 }
 
 #gallery {
@@ -255,7 +250,6 @@ main {
     grid-column-start: 6;
     grid-column-end: 8;
     grid-row-start: 12;
-    fill: var(--fontDarker);
     width: 105%;
 }
 
@@ -275,7 +269,6 @@ main {
     grid-column-end: 8;
     grid-row-start: 16;
     width: 105%;
-    fill: var(--fontDarker);
 }
 
 #connection-frame {
@@ -283,14 +276,12 @@ main {
     grid-column-end: 12;
     grid-row-start: 17;
     grid-row-end: 19;
-    fill: var(--fontDarker);
 }
 
 #facebook-icon {
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 19;
-    fill: var(--fontDarker);
     width: 100%;
 }
 
@@ -298,7 +289,6 @@ main {
     grid-column-start: 9;
     grid-column-end: 11;
     grid-row-start: 19;
-    fill: var(--fontDarker);
     width: 100%;
 }
 
@@ -307,7 +297,6 @@ main {
     grid-column-end: 8;
     grid-row-start: 17;
     align-self: end;
-    fill: var(--fontDarker);
     width: 100%;
 }
 
@@ -317,7 +306,7 @@ a {
 }
 
 a:visited {
-    color: var(--font);
+    color: var(--gradientFrom);
 }
 
 h1 {
