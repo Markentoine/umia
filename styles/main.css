@@ -306,7 +306,7 @@ a {
 }
 
 a:visited {
-    color: var(--gradientFrom);
+    fill: var(--gradientFrom);
 }
 
 h1 {
