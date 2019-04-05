@@ -21,6 +21,7 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
+    fill: var(--fontDarker);
 }
 
 .wrapper {
@@ -176,6 +177,7 @@ main {
     grid-column-end: 12;
     grid-row-start: 2;
     grid-row-end: 4;
+    fill: var(--fontDarker);
 }
 
 .map {
@@ -308,8 +310,9 @@ main {
     fill: var(--fontDarker);
     width: 100%;
 }
+
 a { 
-    color: var(--font);
+    color: var(--fontDarker);
     text-decoration: none;
 }
 
@@ -324,9 +327,5 @@ h1 {
 p {
     margin: .3rem;
     color: var(--fontDarker);
-}
-
-#schedule {
-    width: 10vw;
 }
 
