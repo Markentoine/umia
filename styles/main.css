@@ -1,7 +1,6 @@
 :root {
     --font: #FF6D71;
     --fontDarker: #FF4247;
-    --circles: #2c3e50;
     --gradientFrom: #FFEBDA;
     --gradientTo: #FFAE6D;
     /*ffbc42  24BEDB;*/
@@ -275,7 +274,7 @@ main {
     grid-column-start: 2;
     grid-column-end: 12;
     grid-row-start: 17;
-    grid-row-end: 19;
+    grid-row-end: 21;
 }
 
 #facebook-icon {
