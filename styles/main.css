@@ -306,7 +306,7 @@ a {
 }
 
 a:visited {
-    fill: var(--gradientFrom);
+    fill: var(--font);
 }
 
 h1 {
