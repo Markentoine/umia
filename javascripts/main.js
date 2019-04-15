@@ -9,6 +9,7 @@
         const telephone = document.getElementById('telephone');
         const address = document.getElementById('address');
         const imageGallery = document.getElementById('image-gallery');
+        const year = document.getElementById('year');
         setTimeout(() => {
             plate.classList.add('rotate');
             centerPlate.classList.add('antirotate');
@@ -32,8 +33,10 @@
             if (inc === len) inc = 0;
             imageGallery.setAttribute('src', `./assets/photos/${photos[inc]}`);
         }, 3000);
+        year.innerText = new Date().getFullYear();
 
         document.addEventListener('scroll', events.headerOnScroll.bind(header));
+
     });
 }());
 
