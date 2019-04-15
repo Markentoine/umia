@@ -34,6 +34,8 @@
             imageGallery.setAttribute('src', `./assets/photos/${photos[inc]}`);
         }, 3000);
         year.innerText = new Date().getFullYear();
+        const lan = navigator.language || navigator.userLanguage;
+        console.log(lan);
 
         document.addEventListener('scroll', events.headerOnScroll.bind(header));
 

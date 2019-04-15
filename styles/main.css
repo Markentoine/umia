@@ -158,7 +158,7 @@ main {
     display: grid;
     flex: 0 0 100%;
     grid-template-columns: 14% repeat(10, 7.2%) 14%;
-    grid-template-rows: 18vw 36.5vw 36.5vw 18vw 15vw 15vw 36vw 18vw 15vw 73vw 18vw 15vw 18vw 36vw 18vw 15vw 22vw 14.5vw 14.5vw 22.5vw 18vw 12vw 54vw;
+    grid-template-rows: 18vw 36.5vw 36.5vw 18vw 15vw 15vw 36vw 18vw 15vw 73vw 18vw 15vw 18vw 36vw 18vw 15vw 22vw 14.5vw 14.5vw 22.5vw 18vw 12vw 45.5vw;
 }
 
 #location-pin {
@@ -278,15 +278,15 @@ main {
 }
 
 #facebook-icon {
-    grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 6;
     grid-row-start: 19;
     width: 100%;
 }
 
 #instagram-icon {
-    grid-column-start: 9;
-    grid-column-end: 11;
+    grid-column-start: 8;
+    grid-column-end: 10;
     grid-row-start: 19;
     width: 100%;
 }
@@ -296,6 +296,7 @@ main {
     grid-column-end: 8;
     grid-row-start: 17;
     align-self: end;
+    margin-bottom: -50%;
     width: 100%;
 }
 
