@@ -54,7 +54,7 @@ const effects = {
             }
             el.style.opacity = op;
             el.style.filter = `blur(${bl})px`;
-            op += 0.005;
+            op += 0.002;
             bl -= .025;
         }, 1);
     },

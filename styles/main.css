@@ -16,18 +16,6 @@ html {
     padding: 0;
 }
 
-@media screen and (min-width: 320px) {
-    html {
-      font-size: calc(24px + 6 * ((100vw - 320px) / 680));
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    html {
-      font-size: 36px;
-    }
-}
-
 *,
 *:before,
 *:after {
@@ -104,22 +92,20 @@ svg {
 }
 
 .rotate {
-    fill: var(--font);
     transform: rotate(2turn);
-    transition: 1s;
+    transition: 2s ease-out;
 }
 
 .antirotate {
-    fill: var(--font);
     transform: rotate(-2turn);
-    transition: 1s;
+    transition: 2s ease-out;
 }
 
 .hide {
     visibility: hidden;
 }
 
-#plate, #center-plate, #umia-title, #CuisineVoyages, #address, #telephone, #phone-call-out, #map-frame {
+.rotate, .antirotate, #plate, #center-plate, #umia-title, #CuisineVoyages, #address, #telephone, #phone-call-out, #map-frame {
     fill: var(--font);
 }
 
@@ -135,7 +121,6 @@ svg {
 }
 
 #CuisineVoyages {
-    fill: var(--font);
     padding-bottom: 20%;
     grid-column-start: 2;
     grid-column-end: 6;
@@ -147,7 +132,6 @@ svg {
     grid-row-start: 7;
     width: 40%;
     margin-left: 32%;
-    
 }
 
 #telephone {
@@ -209,10 +193,6 @@ main {
     width: 100%;
 }
 
-#clock svg > path {
-    fill: var(--gradientFrom);
-}
-
 #hours {
     display: flex;
     flex-direction: column;
@@ -232,10 +212,6 @@ main {
     grid-column-end: 8;
     grid-row-start: 9;
     width: 100%;
-}
-
-#fond {
-    fill: var(--gradientFrom);
 }
 
 #gallery-frame {
@@ -265,10 +241,6 @@ main {
     width: 120%;
 }
 
-#inner-quality-icon {
-    fill: var(--gradientFrom);
-}
-
 #philosophy {
     display: flex;
     flex-direction: column;
@@ -288,7 +260,10 @@ main {
     margin-left: -9%;
 }
 
-g[id^="PART"] {
+#clock svg > path,
+#inner-quality-icon, 
+g[id^="PART"],
+.fond {
     fill: var(--gradientFrom);
 }
 
@@ -304,10 +279,6 @@ g[id^="PART"] {
     grid-column-end: 6;
     grid-row-start: 19;
     width: 100%;
-}
-
-.fond {
-    fill: var(--gradientFrom);
 }
 
 #instagram-icon {
@@ -371,3 +342,14 @@ p {
     color: var(--fontDarker);
 }
 
+@media screen and (min-width: 320px) {
+    html {
+      font-size: calc(24px + 6 * ((100vw - 320px) / 680));
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    html {
+      font-size: 36px;
+    }
+}
