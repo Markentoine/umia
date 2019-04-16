@@ -294,7 +294,7 @@ g[id^="PART"] {
     width: 100%;
 }
 
-circle[id="fb"] {
+.fond {
     fill: var(--gradientFrom);
 }
 
