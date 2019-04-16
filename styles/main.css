@@ -294,6 +294,10 @@ g[id^="PART"] {
     width: 100%;
 }
 
+circle[id="fb"] {
+    fill: var(--gradientFrom);
+}
+
 #instagram-icon {
     grid-column-start: 8;
     grid-column-end: 10;
