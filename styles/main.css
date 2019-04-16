@@ -276,6 +276,10 @@ main {
     margin-left: -9%;
 }
 
+g[id^="PART"] {
+    fill: var(--gradientFrom);
+}
+
 #connection-frame {
     grid-column-start: 2;
     grid-column-end: 12;
