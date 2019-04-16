@@ -158,7 +158,7 @@ main {
     display: grid;
     flex: 0 0 100%;
     grid-template-columns: 14% repeat(10, 7.2%) 14%;
-    grid-template-rows: 18vw 36.5vw 36.5vw 18vw 15vw 15vw 36vw 18vw 15vw 73vw 18vw 18vw 18vw 36vw 18vw 18vw 22vw 14.5vw 14.5vw 22.5vw 18vw 12vw 45.5vw;
+    grid-template-rows: 18vw 36.5vw 36.5vw 18vw 15vw 15vw 36vw 18vw 15vw 73vw 18vw 18vw 15vw 36vw 15vw 18vw 22vw 14.5vw 14.5vw 22.5vw 18vw 12vw 45.5vw;
 }
 
 #location-pin {
@@ -251,6 +251,10 @@ main {
     grid-row-start: 12;
     margin-left: -9%;
     width: 120%;
+}
+
+#inner-quality-icon {
+    fill: var(--gradientFrom);
 }
 
 #philosophy {
