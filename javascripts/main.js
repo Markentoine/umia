@@ -25,18 +25,16 @@
                 }, 500);
             }, 1000);
         }, 300);
-        let inc = 0
+        let idxPhoto = 0
         setInterval(() => {
             const photos = ['salle.png', 'homard_compressed_rounded.png', 'equipe.png', 'auVert.png', 'figue.png', 'chat.png', 'carotte.png', 'citron.png', 'violette.png', 'aubergine.png', 'radis.png', 'raquettes.png', 'poulet.png', 'framboise.png', 'oranges.png' ]
             const len = photos.length;
-            inc += 1;
-            if (inc === len) inc = 0;
-            imageGallery.setAttribute('src', `./assets/photos/${photos[inc]}`);
+            idxPhoto += 1;
+            if (idxPhoto === len) idxPhoto = 0;
+            imageGallery.setAttribute('src', `./assets/photos/${photos[idxPhoto]}`);
         }, 3000);
         year.innerText = new Date().getFullYear();
         const lan = navigator.language || navigator.userLanguage;
-        console.log(lan);
-
         document.addEventListener('scroll', events.headerOnScroll.bind(header));
 
     });
